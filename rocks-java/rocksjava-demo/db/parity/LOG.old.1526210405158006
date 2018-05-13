@@ -1,0 +1,164 @@
+2018/05/13-20:19:32.602691 2cdc RocksDB version: 5.5.1
+2018/05/13-20:19:32.602756 2cdc Git sha rocksdb_build_git_sha:@72cf57d4b40e5c809839afc1c62dc13e533b8ec6@
+2018/05/13-20:19:32.602779 2cdc Compile date Jul  5 2017
+2018/05/13-20:19:32.602799 2cdc DB SUMMARY
+2018/05/13-20:19:32.603943 2cdc CURRENT file:  CURRENT
+2018/05/13-20:19:32.603976 2cdc IDENTITY file:  IDENTITY
+2018/05/13-20:19:32.604001 2cdc MANIFEST file:  MANIFEST-000057 size: 1891 Bytes
+2018/05/13-20:19:32.604017 2cdc SST files in D:\rocksdb\db dir, Total Num: 12, files: 000045.sst 000046.sst 000047.sst 000048.sst 000050.sst 000058.sst 000059.sst 000060.sst 000061.sst 
+2018/05/13-20:19:32.604032 2cdc Write Ahead Log file in D:\rocksdb\db: 000065.log size: 143 ; 
+2018/05/13-20:19:32.604047 2cdc                         Options.error_if_exists: 0
+2018/05/13-20:19:32.604328 2cdc                       Options.create_if_missing: 1
+2018/05/13-20:19:32.604347 2cdc                         Options.paranoid_checks: 1
+2018/05/13-20:19:32.604355 2cdc                                     Options.env: 0000000001041F40
+2018/05/13-20:19:32.604361 2cdc                                Options.info_log: 000000001A8BEEF0
+2018/05/13-20:19:32.604368 2cdc                Options.max_file_opening_threads: 16
+2018/05/13-20:19:32.604375 2cdc                               Options.use_fsync: 0
+2018/05/13-20:19:32.604381 2cdc                       Options.max_log_file_size: 0
+2018/05/13-20:19:32.604392 2cdc                  Options.max_manifest_file_size: 18446744073709551615
+2018/05/13-20:19:32.604398 2cdc                   Options.log_file_time_to_roll: 0
+2018/05/13-20:19:32.604405 2cdc                       Options.keep_log_file_num: 1000
+2018/05/13-20:19:32.604412 2cdc                    Options.recycle_log_file_num: 0
+2018/05/13-20:19:32.604418 2cdc                         Options.allow_fallocate: 1
+2018/05/13-20:19:32.604424 2cdc                        Options.allow_mmap_reads: 0
+2018/05/13-20:19:32.604431 2cdc                       Options.allow_mmap_writes: 0
+2018/05/13-20:19:32.604437 2cdc                        Options.use_direct_reads: 0
+2018/05/13-20:19:32.604444 2cdc                        Options.use_direct_io_for_flush_and_compaction: 0
+2018/05/13-20:19:32.604451 2cdc          Options.create_missing_column_families: 0
+2018/05/13-20:19:32.604457 2cdc                              Options.db_log_dir: 
+2018/05/13-20:19:32.604502 2cdc                                 Options.wal_dir: D:\rocksdb\db
+2018/05/13-20:19:32.604510 2cdc                Options.table_cache_numshardbits: 6
+2018/05/13-20:19:32.604517 2cdc                      Options.max_subcompactions: 1
+2018/05/13-20:19:32.604523 2cdc                  Options.max_background_flushes: 1
+2018/05/13-20:19:32.604530 2cdc                         Options.WAL_ttl_seconds: 0
+2018/05/13-20:19:32.604536 2cdc                       Options.WAL_size_limit_MB: 0
+2018/05/13-20:19:32.604543 2cdc             Options.manifest_preallocation_size: 4194304
+2018/05/13-20:19:32.604549 2cdc                     Options.is_fd_close_on_exec: 1
+2018/05/13-20:19:32.604555 2cdc                   Options.advise_random_on_open: 1
+2018/05/13-20:19:32.604562 2cdc                    Options.db_write_buffer_size: 0
+2018/05/13-20:19:32.604568 2cdc         Options.access_hint_on_compaction_start: 1
+2018/05/13-20:19:32.604575 2cdc  Options.new_table_reader_for_compaction_inputs: 0
+2018/05/13-20:19:32.604581 2cdc               Options.compaction_readahead_size: 0
+2018/05/13-20:19:32.604587 2cdc           Options.random_access_max_buffer_size: 1048576
+2018/05/13-20:19:32.604594 2cdc           Options.writable_file_max_buffer_size: 1048576
+2018/05/13-20:19:32.604600 2cdc                      Options.use_adaptive_mutex: 0
+2018/05/13-20:19:32.604606 2cdc                            Options.rate_limiter: 0000000000000000
+2018/05/13-20:19:32.604613 2cdc     Options.sst_file_manager.rate_bytes_per_sec: 0
+2018/05/13-20:19:32.604620 2cdc                          Options.bytes_per_sync: 0
+2018/05/13-20:19:32.604626 2cdc                      Options.wal_bytes_per_sync: 0
+2018/05/13-20:19:32.604632 2cdc                       Options.wal_recovery_mode: 2
+2018/05/13-20:19:32.604667 2cdc                  Options.enable_thread_tracking: 0
+2018/05/13-20:19:32.604676 2cdc                  Options.enable_pipelined_write: 0
+2018/05/13-20:19:32.604683 2cdc         Options.allow_concurrent_memtable_write: 1
+2018/05/13-20:19:32.604689 2cdc      Options.enable_write_thread_adaptive_yield: 1
+2018/05/13-20:19:32.604696 2cdc             Options.write_thread_max_yield_usec: 100
+2018/05/13-20:19:32.604702 2cdc            Options.write_thread_slow_yield_usec: 3
+2018/05/13-20:19:32.604709 2cdc                               Options.row_cache: None
+2018/05/13-20:19:32.604715 2cdc                              Options.wal_filter: None
+2018/05/13-20:19:32.604722 2cdc             Options.avoid_flush_during_recovery: 0
+2018/05/13-20:19:32.604728 2cdc             Options.allow_ingest_behind: 0
+2018/05/13-20:19:32.604734 2cdc             Options.base_background_compactions: 1
+2018/05/13-20:19:32.604741 2cdc             Options.max_background_compactions: 1
+2018/05/13-20:19:32.604747 2cdc             Options.avoid_flush_during_shutdown: 0
+2018/05/13-20:19:32.604754 2cdc             Options.delayed_write_rate : 16777216
+2018/05/13-20:19:32.604760 2cdc             Options.max_total_wal_size: 0
+2018/05/13-20:19:32.604766 2cdc             Options.delete_obsolete_files_period_micros: 21600000000
+2018/05/13-20:19:32.604773 2cdc                   Options.stats_dump_period_sec: 600
+2018/05/13-20:19:32.604779 2cdc                          Options.max_open_files: -1
+2018/05/13-20:19:32.604786 2cdc Compression algorithms supported:
+2018/05/13-20:19:32.604802 2cdc 	Snappy supported: 0
+2018/05/13-20:19:32.604809 2cdc 	Zlib supported: 0
+2018/05/13-20:19:32.604815 2cdc 	Bzip supported: 0
+2018/05/13-20:19:32.604820 2cdc 	LZ4 supported: 0
+2018/05/13-20:19:32.604827 2cdc 	ZSTD supported: 0
+2018/05/13-20:19:32.604837 2cdc Fast CRC32 supported: 1
+2018/05/13-20:19:32.605763 2cdc [c:\users\aretter\code\rocksdb\db\version_set.cc:2633] Recovering from manifest file: MANIFEST-000057
+2018/05/13-20:19:32.615895 2cdc [c:\users\aretter\code\rocksdb\db\column_family.cc:414] --------------- Options for column family [default]:
+2018/05/13-20:19:32.615924 2cdc               Options.comparator: leveldb.BytewiseComparator
+2018/05/13-20:19:32.615932 2cdc           Options.merge_operator: None
+2018/05/13-20:19:32.615939 2cdc        Options.compaction_filter: None
+2018/05/13-20:19:32.615946 2cdc        Options.compaction_filter_factory: None
+2018/05/13-20:19:32.615952 2cdc         Options.memtable_factory: SkipListFactory
+2018/05/13-20:19:32.615959 2cdc            Options.table_factory: BlockBasedTable
+2018/05/13-20:19:32.616011 2cdc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000000001036B60)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000000000108B3F0
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  format_version: 0
+2018/05/13-20:19:32.616019 2cdc        Options.write_buffer_size: 67108864
+2018/05/13-20:19:32.616026 2cdc  Options.max_write_buffer_number: 2
+2018/05/13-20:19:32.616032 2cdc          Options.compression: NoCompression
+2018/05/13-20:19:32.616038 2cdc                  Options.bottommost_compression: ZSTD
+2018/05/13-20:19:32.616046 2cdc       Options.prefix_extractor: nullptr
+2018/05/13-20:19:32.616053 2cdc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2018/05/13-20:19:32.616060 2cdc             Options.num_levels: 7
+2018/05/13-20:19:32.616066 2cdc        Options.min_write_buffer_number_to_merge: 1
+2018/05/13-20:19:32.616109 2cdc     Options.max_write_buffer_number_to_maintain: 0
+2018/05/13-20:19:32.616119 2cdc            Options.compression_opts.window_bits: -14
+2018/05/13-20:19:32.616126 2cdc                  Options.compression_opts.level: -1
+2018/05/13-20:19:32.616133 2cdc               Options.compression_opts.strategy: 0
+2018/05/13-20:19:32.616139 2cdc         Options.compression_opts.max_dict_bytes: 0
+2018/05/13-20:19:32.616146 2cdc      Options.level0_file_num_compaction_trigger: 4
+2018/05/13-20:19:32.616152 2cdc          Options.level0_slowdown_writes_trigger: 20
+2018/05/13-20:19:32.616159 2cdc              Options.level0_stop_writes_trigger: 36
+2018/05/13-20:19:32.616180 2cdc                   Options.target_file_size_base: 67108864
+2018/05/13-20:19:32.616216 2cdc             Options.target_file_size_multiplier: 1
+2018/05/13-20:19:32.616242 2cdc                Options.max_bytes_for_level_base: 268435456
+2018/05/13-20:19:32.616250 2cdc Options.level_compaction_dynamic_level_bytes: 1
+2018/05/13-20:19:32.616256 2cdc          Options.max_bytes_for_level_multiplier: 10.000000
+2018/05/13-20:19:32.616271 2cdc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2018/05/13-20:19:32.616277 2cdc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2018/05/13-20:19:32.616284 2cdc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2018/05/13-20:19:32.616290 2cdc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2018/05/13-20:19:32.616297 2cdc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2018/05/13-20:19:32.616305 2cdc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2018/05/13-20:19:32.616311 2cdc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2018/05/13-20:19:32.616318 2cdc       Options.max_sequential_skip_in_iterations: 8
+2018/05/13-20:19:32.616324 2cdc                    Options.max_compaction_bytes: 1677721600
+2018/05/13-20:19:32.616331 2cdc                        Options.arena_block_size: 8388608
+2018/05/13-20:19:32.616338 2cdc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2018/05/13-20:19:32.616344 2cdc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2018/05/13-20:19:32.616351 2cdc       Options.rate_limit_delay_max_milliseconds: 100
+2018/05/13-20:19:32.616357 2cdc                Options.disable_auto_compactions: 0
+2018/05/13-20:19:32.616365 2cdc                        Options.compaction_style: kCompactionStyleLevel
+2018/05/13-20:19:32.616372 2cdc                          Options.compaction_pri: kByCompensatedSize
+2018/05/13-20:19:32.616379 2cdc Options.compaction_options_universal.size_ratio: 1
+2018/05/13-20:19:32.616385 2cdc Options.compaction_options_universal.min_merge_width: 2
+2018/05/13-20:19:32.616392 2cdc Options.compaction_options_universal.max_merge_width: 4294967295
+2018/05/13-20:19:32.616399 2cdc Options.compaction_options_universal.max_size_amplification_percent: 200
+2018/05/13-20:19:32.616405 2cdc Options.compaction_options_universal.compression_size_percent: -1
+2018/05/13-20:19:32.616412 2cdc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2018/05/13-20:19:32.616419 2cdc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2018/05/13-20:19:32.616426 2cdc Options.compaction_options_fifo.allow_compaction: 0
+2018/05/13-20:19:32.616433 2cdc                   Options.table_properties_collectors: 
+2018/05/13-20:19:32.616478 2cdc                   Options.inplace_update_support: 0
+2018/05/13-20:19:32.616488 2cdc                 Options.inplace_update_num_locks: 10000
+2018/05/13-20:19:32.616495 2cdc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2018/05/13-20:19:32.616503 2cdc   Options.memtable_huge_page_size: 0
+2018/05/13-20:19:32.616509 2cdc                           Options.bloom_locality: 0
+2018/05/13-20:19:32.616515 2cdc                    Options.max_successive_merges: 0
+2018/05/13-20:19:32.616522 2cdc                Options.optimize_filters_for_hits: 0
+2018/05/13-20:19:32.616529 2cdc                Options.paranoid_file_checks: 0
+2018/05/13-20:19:32.616535 2cdc                Options.force_consistency_checks: 0
+2018/05/13-20:19:32.616543 2cdc                Options.report_bg_io_stats: 0
+2018/05/13-20:19:32.616744 2cdc [c:\users\aretter\code\rocksdb\db\db_impl.cc:216] Shutdown: canceling all background work
+2018/05/13-20:19:32.616810 2cdc [c:\users\aretter\code\rocksdb\db\db_impl.cc:342] Shutdown complete

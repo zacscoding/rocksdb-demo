@@ -1,0 +1,169 @@
+2018/05/13-23:04:37.216760 4f8 RocksDB version: 5.8.7
+2018/05/13-23:04:37.216869 4f8 Git sha rocksdb_build_git_sha:@aead4041720f40e305e7f9d432875749d91d5a2d@
+2018/05/13-23:04:37.216895 4f8 Compile date Nov 30 2017
+2018/05/13-23:04:37.216915 4f8 DB SUMMARY
+2018/05/13-23:04:37.217520 4f8 SST files in db/test dir, Total Num: 0, files: 
+2018/05/13-23:04:37.217546 4f8 Write Ahead Log file in db/test: 
+2018/05/13-23:04:37.217563 4f8                         Options.error_if_exists: 0
+2018/05/13-23:04:37.217584 4f8                       Options.create_if_missing: 1
+2018/05/13-23:04:37.217599 4f8                         Options.paranoid_checks: 1
+2018/05/13-23:04:37.217614 4f8                                     Options.env: 0000000000B7EE40
+2018/05/13-23:04:37.217629 4f8                                Options.info_log: 000000001A45B8D0
+2018/05/13-23:04:37.217837 4f8                Options.max_file_opening_threads: 16
+2018/05/13-23:04:37.217850 4f8                               Options.use_fsync: 0
+2018/05/13-23:04:37.217871 4f8                       Options.max_log_file_size: 0
+2018/05/13-23:04:37.217881 4f8                  Options.max_manifest_file_size: 18446744073709551615
+2018/05/13-23:04:37.217888 4f8                   Options.log_file_time_to_roll: 0
+2018/05/13-23:04:37.217895 4f8                       Options.keep_log_file_num: 1000
+2018/05/13-23:04:37.217902 4f8                    Options.recycle_log_file_num: 0
+2018/05/13-23:04:37.217909 4f8                         Options.allow_fallocate: 1
+2018/05/13-23:04:37.217916 4f8                        Options.allow_mmap_reads: 0
+2018/05/13-23:04:37.217922 4f8                       Options.allow_mmap_writes: 0
+2018/05/13-23:04:37.217930 4f8                        Options.use_direct_reads: 0
+2018/05/13-23:04:37.217936 4f8                        Options.use_direct_io_for_flush_and_compaction: 0
+2018/05/13-23:04:37.217944 4f8          Options.create_missing_column_families: 0
+2018/05/13-23:04:37.217951 4f8                              Options.db_log_dir: 
+2018/05/13-23:04:37.217958 4f8                                 Options.wal_dir: db/test
+2018/05/13-23:04:37.217965 4f8                Options.table_cache_numshardbits: 6
+2018/05/13-23:04:37.217972 4f8                      Options.max_subcompactions: 1
+2018/05/13-23:04:37.217979 4f8                  Options.max_background_flushes: -1
+2018/05/13-23:04:37.217985 4f8                         Options.WAL_ttl_seconds: 0
+2018/05/13-23:04:37.217993 4f8                       Options.WAL_size_limit_MB: 0
+2018/05/13-23:04:37.218000 4f8             Options.manifest_preallocation_size: 4194304
+2018/05/13-23:04:37.218007 4f8                     Options.is_fd_close_on_exec: 1
+2018/05/13-23:04:37.218013 4f8                   Options.advise_random_on_open: 1
+2018/05/13-23:04:37.218020 4f8                    Options.db_write_buffer_size: 0
+2018/05/13-23:04:37.218027 4f8                    Options.write_buffer_manager: 000000001A4304D0
+2018/05/13-23:04:37.218034 4f8         Options.access_hint_on_compaction_start: 1
+2018/05/13-23:04:37.218041 4f8  Options.new_table_reader_for_compaction_inputs: 0
+2018/05/13-23:04:37.218048 4f8               Options.compaction_readahead_size: 0
+2018/05/13-23:04:37.218055 4f8           Options.random_access_max_buffer_size: 1048576
+2018/05/13-23:04:37.218062 4f8           Options.writable_file_max_buffer_size: 1048576
+2018/05/13-23:04:37.218069 4f8                      Options.use_adaptive_mutex: 0
+2018/05/13-23:04:37.218076 4f8                            Options.rate_limiter: 0000000000000000
+2018/05/13-23:04:37.218083 4f8     Options.sst_file_manager.rate_bytes_per_sec: 0
+2018/05/13-23:04:37.218090 4f8                          Options.bytes_per_sync: 0
+2018/05/13-23:04:37.218098 4f8                      Options.wal_bytes_per_sync: 0
+2018/05/13-23:04:37.218104 4f8                       Options.wal_recovery_mode: 2
+2018/05/13-23:04:37.218112 4f8                  Options.enable_thread_tracking: 0
+2018/05/13-23:04:37.218118 4f8                  Options.enable_pipelined_write: 0
+2018/05/13-23:04:37.218126 4f8         Options.allow_concurrent_memtable_write: 1
+2018/05/13-23:04:37.218161 4f8      Options.enable_write_thread_adaptive_yield: 1
+2018/05/13-23:04:37.218171 4f8             Options.write_thread_max_yield_usec: 100
+2018/05/13-23:04:37.218178 4f8            Options.write_thread_slow_yield_usec: 3
+2018/05/13-23:04:37.218185 4f8                               Options.row_cache: None
+2018/05/13-23:04:37.218192 4f8                              Options.wal_filter: None
+2018/05/13-23:04:37.218199 4f8             Options.avoid_flush_during_recovery: 0
+2018/05/13-23:04:37.218220 4f8             Options.allow_ingest_behind: 0
+2018/05/13-23:04:37.218226 4f8             Options.concurrent_prepare: 0
+2018/05/13-23:04:37.218233 4f8             Options.manual_wal_flush: 0
+2018/05/13-23:04:37.218240 4f8             Options.max_background_jobs: 2
+2018/05/13-23:04:37.218247 4f8             Options.max_background_compactions: -1
+2018/05/13-23:04:37.218254 4f8             Options.avoid_flush_during_shutdown: 0
+2018/05/13-23:04:37.218261 4f8             Options.delayed_write_rate : 16777216
+2018/05/13-23:04:37.218268 4f8             Options.max_total_wal_size: 0
+2018/05/13-23:04:37.218274 4f8             Options.delete_obsolete_files_period_micros: 21600000000
+2018/05/13-23:04:37.218282 4f8                   Options.stats_dump_period_sec: 600
+2018/05/13-23:04:37.218288 4f8                          Options.max_open_files: -1
+2018/05/13-23:04:37.218295 4f8 Compression algorithms supported:
+2018/05/13-23:04:37.218311 4f8 	Snappy supported: 0
+2018/05/13-23:04:37.218318 4f8 	Zlib supported: 0
+2018/05/13-23:04:37.218324 4f8 	Bzip supported: 0
+2018/05/13-23:04:37.218331 4f8 	LZ4 supported: 0
+2018/05/13-23:04:37.218337 4f8 	ZSTD supported: 0
+2018/05/13-23:04:37.218344 4f8 Fast CRC32 supported: 1
+2018/05/13-23:04:37.219803 4f8 [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:216] Creating manifest 1 
+2018/05/13-23:04:37.235831 4f8 [c:\users\aretter\code\rocksdb\db\version_set.cc:2726] Recovering from manifest file: MANIFEST-000001
+2018/05/13-23:04:37.236183 4f8 [c:\users\aretter\code\rocksdb\db\column_family.cc:413] --------------- Options for column family [default]:
+2018/05/13-23:04:37.236205 4f8               Options.comparator: leveldb.BytewiseComparator
+2018/05/13-23:04:37.236214 4f8           Options.merge_operator: None
+2018/05/13-23:04:37.236221 4f8        Options.compaction_filter: None
+2018/05/13-23:04:37.236228 4f8        Options.compaction_filter_factory: None
+2018/05/13-23:04:37.236235 4f8         Options.memtable_factory: SkipListFactory
+2018/05/13-23:04:37.236256 4f8            Options.table_factory: BlockBasedTable
+2018/05/13-23:04:37.236301 4f8            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000000000A978D0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000000001A244C20
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  format_version: 2
+2018/05/13-23:04:37.236311 4f8        Options.write_buffer_size: 67108864
+2018/05/13-23:04:37.236319 4f8  Options.max_write_buffer_number: 2
+2018/05/13-23:04:37.236326 4f8          Options.compression: NoCompression
+2018/05/13-23:04:37.236332 4f8                  Options.bottommost_compression: Disabled
+2018/05/13-23:04:37.236340 4f8       Options.prefix_extractor: nullptr
+2018/05/13-23:04:37.236346 4f8   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2018/05/13-23:04:37.236354 4f8             Options.num_levels: 7
+2018/05/13-23:04:37.236360 4f8        Options.min_write_buffer_number_to_merge: 1
+2018/05/13-23:04:37.236367 4f8     Options.max_write_buffer_number_to_maintain: 0
+2018/05/13-23:04:37.236417 4f8            Options.compression_opts.window_bits: -14
+2018/05/13-23:04:37.236428 4f8                  Options.compression_opts.level: -1
+2018/05/13-23:04:37.236435 4f8               Options.compression_opts.strategy: 0
+2018/05/13-23:04:37.236442 4f8         Options.compression_opts.max_dict_bytes: 0
+2018/05/13-23:04:37.236449 4f8      Options.level0_file_num_compaction_trigger: 4
+2018/05/13-23:04:37.236456 4f8          Options.level0_slowdown_writes_trigger: 20
+2018/05/13-23:04:37.236463 4f8              Options.level0_stop_writes_trigger: 36
+2018/05/13-23:04:37.236470 4f8                   Options.target_file_size_base: 67108864
+2018/05/13-23:04:37.236476 4f8             Options.target_file_size_multiplier: 1
+2018/05/13-23:04:37.236483 4f8                Options.max_bytes_for_level_base: 268435456
+2018/05/13-23:04:37.236490 4f8 Options.level_compaction_dynamic_level_bytes: 0
+2018/05/13-23:04:37.236497 4f8          Options.max_bytes_for_level_multiplier: 10.000000
+2018/05/13-23:04:37.236510 4f8 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2018/05/13-23:04:37.236517 4f8 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2018/05/13-23:04:37.236524 4f8 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2018/05/13-23:04:37.236530 4f8 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2018/05/13-23:04:37.236538 4f8 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2018/05/13-23:04:37.236544 4f8 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2018/05/13-23:04:37.236551 4f8 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2018/05/13-23:04:37.236558 4f8       Options.max_sequential_skip_in_iterations: 8
+2018/05/13-23:04:37.236565 4f8                    Options.max_compaction_bytes: 1677721600
+2018/05/13-23:04:37.236572 4f8                        Options.arena_block_size: 8388608
+2018/05/13-23:04:37.236579 4f8   Options.soft_pending_compaction_bytes_limit: 68719476736
+2018/05/13-23:04:37.236586 4f8   Options.hard_pending_compaction_bytes_limit: 274877906944
+2018/05/13-23:04:37.236593 4f8       Options.rate_limit_delay_max_milliseconds: 100
+2018/05/13-23:04:37.236600 4f8                Options.disable_auto_compactions: 0
+2018/05/13-23:04:37.236608 4f8                        Options.compaction_style: kCompactionStyleLevel
+2018/05/13-23:04:37.236617 4f8                          Options.compaction_pri: kByCompensatedSize
+2018/05/13-23:04:37.236624 4f8 Options.compaction_options_universal.size_ratio: 1
+2018/05/13-23:04:37.236631 4f8 Options.compaction_options_universal.min_merge_width: 2
+2018/05/13-23:04:37.236638 4f8 Options.compaction_options_universal.max_merge_width: 4294967295
+2018/05/13-23:04:37.236659 4f8 Options.compaction_options_universal.max_size_amplification_percent: 200
+2018/05/13-23:04:37.236666 4f8 Options.compaction_options_universal.compression_size_percent: -1
+2018/05/13-23:04:37.236674 4f8 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2018/05/13-23:04:37.236680 4f8 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2018/05/13-23:04:37.236687 4f8 Options.compaction_options_fifo.allow_compaction: 0
+2018/05/13-23:04:37.236694 4f8 Options.compaction_options_fifo.ttl: 0
+2018/05/13-23:04:37.236701 4f8                   Options.table_properties_collectors: 
+2018/05/13-23:04:37.236722 4f8                   Options.inplace_update_support: 0
+2018/05/13-23:04:37.236729 4f8                 Options.inplace_update_num_locks: 10000
+2018/05/13-23:04:37.236736 4f8               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2018/05/13-23:04:37.236743 4f8   Options.memtable_huge_page_size: 0
+2018/05/13-23:04:37.236750 4f8                           Options.bloom_locality: 0
+2018/05/13-23:04:37.236757 4f8                    Options.max_successive_merges: 0
+2018/05/13-23:04:37.236764 4f8                Options.optimize_filters_for_hits: 0
+2018/05/13-23:04:37.236771 4f8                Options.paranoid_file_checks: 0
+2018/05/13-23:04:37.236777 4f8                Options.force_consistency_checks: 0
+2018/05/13-23:04:37.236786 4f8                Options.report_bg_io_stats: 0
+2018/05/13-23:04:37.237838 4f8 [c:\users\aretter\code\rocksdb\db\version_set.cc:2990] Recovered from manifest file:db/test/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0
+2018/05/13-23:04:37.237880 4f8 [c:\users\aretter\code\rocksdb\db\version_set.cc:2998] Column family [default] (ID 0), log number is 0
+2018/05/13-23:04:37.245401 4f8 [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:1111] DB pointer 000000001A32D7A0
+2018/05/13-23:04:37.247164 4f8 [c:\users\aretter\code\rocksdb\db\db_impl.cc:225] Shutdown: canceling all background work
+2018/05/13-23:04:37.250401 4f8 [c:\users\aretter\code\rocksdb\db\db_impl.cc:355] Shutdown complete
